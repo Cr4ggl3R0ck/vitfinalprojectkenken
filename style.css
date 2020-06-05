@@ -1,0 +1,21 @@
+#kenkenFacts{
+
+display:flex;
+justify-content: center;
+background-color:powderblue;
+font-family: 'Courier New', Courier, monospace
+
+}
+
+#listFacts{
+
+display:flex;
+justify-content: center;
+background-color:powderblue;
+font-family: 'Courier New', Courier, monospace
+
+}
+#listFacts ul{
+
+    column-count: 2
+}
