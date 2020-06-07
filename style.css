@@ -1,55 +1,51 @@
-#kenkenFacts{
+*{
+  padding: 0px; 
+  margin: 0px; 
+  box-sizing: border-box;
+  }
 
+#kenkenFacts{
 display:flex;
 justify-content: center;
 background-color:powderblue;
 font-family: 'Courier New', Courier, monospace
-
 }
 
 #listFacts{
-padding: 100px;
+padding: 50px;
 display:flex;
 justify-content: center;
 background-color:powderblue;
-font-family: 'Courier New', Courier, monospace
-
-
+font-family: 'Courier New', Courier, monospace;
 }
 
 #listFacts ul{
     column-count: 2
 }
 
-*{
-padding: 0px; 
-margin: 0px; 
-box-sizing: border-box;
-}
-
 .carousel-container{
-    width: 40%; 
+    width: 500px; 
     margin: auto; 
     overflow: hidden; 
     position: relative; 
-
+    border:  6px solid black;
 }
+
 .carousel-slide img{
   height: 100%; 
-  width: 100%;
+  width: 100%; 
 }
+
 .carousel-slide{
-    display: flex; 
+    display: flex;
     width: 100%;
     height: 500px;
-
 }
-footer{
+
+#footer{
+    display: flex; 
     background-color: powderblue;
     padding: 50px;      
-    display: flex
-}
-footer p{
-
-  align-content: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
 }
