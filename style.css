@@ -7,15 +7,15 @@
 #kenkenFacts{
 display:flex;
 justify-content: center;
-background-color:powderblue;
+background-color: #8AC4FF;
 font-family: 'Courier New', Courier, monospace
 }
 
 #listFacts{
-padding: 50px;
+padding: 25px;
 display:flex;
 justify-content: center;
-background-color:powderblue;
+background-color: #8DE4FF;
 font-family: 'Courier New', Courier, monospace;
 }
 
@@ -29,8 +29,13 @@ font-family: 'Courier New', Courier, monospace;
     overflow: hidden; 
     position: relative; 
     border:  6px solid black;
+  
 }
+.background{
+background-color:#d9d9d9;
+padding: 25px;
 
+}
 .carousel-slide img{
   height: 100%; 
   width: 100%; 
@@ -40,12 +45,20 @@ font-family: 'Courier New', Courier, monospace;
     display: flex;
     width: 100%;
     height: 500px;
+
+}
+
+.fanclub{
+  display: flex; 
+  justify-content: center;
+  background-color: #8DE4FF;
 }
 
 #footer{
     display: flex; 
-    background-color: powderblue;
+    background-color: #8AC4FF;
     padding: 50px;      
     justify-content: center;
     font-family: 'Courier New', Courier, monospace;
+    padding: 50px; 
 }
